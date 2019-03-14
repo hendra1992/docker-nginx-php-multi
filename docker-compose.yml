@@ -1,0 +1,17 @@
+version: "2"
+
+services:
+    nginx:
+        image: nginx:latest
+        ports:
+            - "80:80"
+        volumes:
+            - ./projects:/projects        
+            - ./conf/nginx/:/etc/nginx/conf.d/
+            - ./data/nginx/:/var/log/nginx/
+        links:
+            - php
+    php:
+        image: php:7-fpm
+        volumes:
+            - ./projects:/projects

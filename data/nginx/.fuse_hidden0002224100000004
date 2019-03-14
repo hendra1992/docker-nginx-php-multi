@@ -1,0 +1,4 @@
+2019/03/14 12:47:56 [error] 6#6: *16 open() "/amir/favicon.ico" failed (2: No such file or directory), client: 172.17.0.1, server: amir.com, request: "GET /favicon.ico HTTP/1.1", host: "amir.com", referrer: "http://amir.com/"
+2019/03/14 12:47:56 [error] 6#6: *16 open() "/amir/favicon.ico" failed (2: No such file or directory), client: 172.17.0.1, server: amir.com, request: "GET /favicon.ico HTTP/1.1", host: "amir.com", referrer: "http://amir.com/"
+2019/03/14 12:47:56 [error] 6#6: *16 open() "/amir/favicon.ico" failed (2: No such file or directory), client: 172.17.0.1, server: amir.com, request: "GET /favicon.ico HTTP/1.1", host: "amir.com", referrer: "http://amir.com/"
+2019/03/14 12:59:43 [error] 6#6: *2 open() "/project1/robots.txt" failed (2: No such file or directory), client: 172.17.0.1, server: project1.com, request: "GET /robots.txt HTTP/1.1", host: "project1.dev"
